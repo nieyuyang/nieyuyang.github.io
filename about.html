@@ -2,39 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Archives</title>
+    <title>About</title>
     <link type="text/css" rel="stylesheet" href="./statics/style/common.css"/>
     <link type="text/css" rel="stylesheet" href="./statics/style/about.css"/>
 </head>
 <body>
+<style type="text/css" rel="stylesheet">
+    @font-face {
+        font-family: 'Typo';
+        font-style: normal;
+        src: local('Typo'), local('Typo'), url(./statics/statics/TypoGraphica.otf);
+    }
+</style>
 <div id="header">
-    <div id="headBackground" style="background-image: url(./statics/statics/nav.jpg)"></div>
-    <a id="navHome" href="./index.html">HOME</a>
+    <a id="username" href="./index.html">nieyuyang</a>
     <div id="nav">
+        <a href="./index.html">HOME</a>
         <a href="./tags.html">TAGS</a>
         <a href="./archives.html">ARCHIVES</a>
-        <a href="./about.html">ABOUT</a>
+        <a class="selected" href="./about.html">ABOUT</a>
     </div>
-    <h1 id="headTitle">ABOUT</h1>
-    <hr>
-    <p id="introduction">My HomePage</p>
 </div>
 <div id="about">
+    <h4>About</h4>
+    <hr/>
     <img id="avatar" src="https://avatars1.githubusercontent.com/u/5330652?v=3">
     <h2 id="name">nieyuyang</h2>
+    <h4 id="introduction">My HomePage</h4>
     <a class="info" href="https://github.com/nieyuyang">
         <img src="./statics/statics/git.svg"/>
-        <p>GITHUB<br/>nieyuyang</p>
+        <p>GitHub: nieyuyang</p>
     </a>
     <a class="info" href="mailto:null">
         <img src="./statics/statics/mail.svg"/>
-        <p>MAIL<br/>null</p>
+        <p>Mail: null</p>
     </a>
 </div>
 
-
-
-<p id="footer">Powered With ❤ By <a>Page.qy</a></p>
+<div id="footer">
+    <h3>Material</h3>
+    <p>Powered With ❤ By <a>Page.qy</a></p>
+</div>
 
 </body>
 </html>
